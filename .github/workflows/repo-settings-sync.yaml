@@ -1,0 +1,30 @@
+name: Repo Settings Sync
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: 39 3 * * *
+
+jobs:
+  repo_settings_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo Settings Sync
+        uses: kbrashears5/github-action-repo-settings-sync@v1.1.0
+        with:
+          REPOSITORIES: "ALL"
+          ALLOW_ISSUES: "true"
+          ALLOW_PROJECTS: "false"
+          ALLOW_WIKI: "false"
+          SQUASH_MERGE: "true"
+          MERGE_COMMIT: "false"
+          REBASE_MERGE: "false"
+          DELETE_HEAD: "true"
+          BRANCH_PROTECTION_NAME: "master"
+          BRANCH_PROTECTION_REQUIRED_REVIEWERS: "1"
+          BRANCH_PROTECTION_DISMISS: "false"
+          BRANCH_PROTECTION_CODE_OWNERS: "true"
+          BRANCH_PROTECTION_ENFORCE_ADMINS: "false"
+          TOKEN: ${{ secrets.PAT }}
