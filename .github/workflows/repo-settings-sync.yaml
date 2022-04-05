@@ -9,7 +9,8 @@ on:
 
 jobs:
   repo_settings_sync:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+    timeout-minutes: 10
     steps:
       - name: Repo Settings Sync
         uses: kbrashears5/github-action-repo-settings-sync@v1.1.0
