@@ -21,6 +21,36 @@ jobs:
           REPOSITORIES: |
             domdomegg/airconsole-you-talking-to-me
             domdomegg/analytics-lambda
+            domdomegg/aviva-pensions-sdk
+            domdomegg/aws-ses-v2-local
+            domdomegg/cs310
+            domdomegg/dealer-tech
+            domdomegg/discord-reminder-template
+            domdomegg/gdoc2latex
+            domdomegg/gdoc2latex-gui
+            domdomegg/google-calendar-quickerstart
+            domdomegg/google-calendar-to-unitemps
+            domdomegg/google-play-version-poller
+            domdomegg/halifax-share-dealing-google-sheets
+            domdomegg/halifax-share-dealing-sdk
+            domdomegg/lifx-houseparty
+            domdomegg/london-cycle-parking
+            domdomegg/rsa-securid
+            domdomegg/rsa-securid-browser-extension
+            domdomegg/serverless-offline-ses-v2
+            domdomegg/simple16
+            domdomegg/spam-email-replier
+            domdomegg/ts-i18n
+            domdomegg/ts-i18n-craco-example
+            domdomegg/ts-i18n-webpack-plugin
+            domdomegg/ts-i18n-webpack-plugin-example
+            domdomegg/typescript-library-template
+            domdomegg/uGrBHohIgQY-analysis
+            domdomegg/uk-covid-stats-benfords-law
+            domdomegg/unitemps-sdk
+            domdomegg/pdf-scanner
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
+          GIT_EMAIL: domdomegg+git@gmail.com
+          GIT_USERNAME: Adam Jones
