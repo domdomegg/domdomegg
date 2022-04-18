@@ -55,3 +55,20 @@ jobs:
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
+
+      - name: Web template
+        uses: kbrashears5/github-action-file-sync@v2.2.0
+        with:
+          REPOSITORIES: |
+            domdomegg/pdf-scanner
+            domdomegg/headless-ui-dialog-centering
+            domdomegg/ts-i18n-webpack-plugin-example
+            domdomegg/ts-i18n-craco-example
+            domdomegg/gdoc2latex-gui
+            domdomegg/airconsole-you-talking-to-me
+            domdomegg/react-typescript-tetris
+          FILES: |
+            file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
+          TOKEN: ${{ secrets.PAT }}
+          GIT_EMAIL: domdomegg+git@gmail.com
+          GIT_USERNAME: Adam Jones
