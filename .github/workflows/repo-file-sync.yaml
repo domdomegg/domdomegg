@@ -50,6 +50,7 @@ jobs:
             domdomegg/unitemps-sdk
             domdomegg/pdf-scanner
             domdomegg/headless-ui-dialog-centering
+            domdomegg/react-typescript-tetris
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -68,7 +69,7 @@ jobs:
             domdomegg/airconsole-you-talking-to-me
             domdomegg/react-typescript-tetris
           FILES: |
-            file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
+            file-sync/web.yaml=.github/workflows/web.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
