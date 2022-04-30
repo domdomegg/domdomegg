@@ -51,6 +51,7 @@ jobs:
             domdomegg/pdf-scanner
             domdomegg/headless-ui-dialog-centering
             domdomegg/react-typescript-tetris
+            domdomegg/postal-vote
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
