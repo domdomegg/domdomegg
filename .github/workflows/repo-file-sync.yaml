@@ -53,6 +53,7 @@ jobs:
             domdomegg/react-typescript-tetris
             domdomegg/postal-vote
             domdomegg/shrolebot
+            domdomegg/serverless-offline-watcher
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
