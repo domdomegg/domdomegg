@@ -54,6 +54,7 @@ jobs:
             domdomegg/postal-vote
             domdomegg/shrolebot
             domdomegg/serverless-offline-watcher
+            domdomegg/serverless-example-send-email-with-ses-offline
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
