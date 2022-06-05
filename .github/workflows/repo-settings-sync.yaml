@@ -13,7 +13,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Repo Settings Sync
-        uses: kbrashears5/github-action-repo-settings-sync@v1.1.0
+        uses: kbrashears5/github-action-repo-settings-sync@v1.2
         with:
           REPOSITORIES: "ALL"
           ALLOW_ISSUES: "true"
@@ -22,6 +22,7 @@ jobs:
           SQUASH_MERGE: "true"
           MERGE_COMMIT: "false"
           REBASE_MERGE: "false"
+          AUTO_MERGE: "true"
           DELETE_HEAD: "true"
           BRANCH_PROTECTION_NAME: "master"
           BRANCH_PROTECTION_REQUIRED_REVIEWERS: "1"
