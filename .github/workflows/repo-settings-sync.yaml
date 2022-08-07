@@ -25,9 +25,4 @@ jobs:
           REBASE_MERGE: "false"
           AUTO_MERGE: "true"
           DELETE_HEAD: "true"
-          BRANCH_PROTECTION_NAME: "master"
-          BRANCH_PROTECTION_REQUIRED_REVIEWERS: "1"
-          BRANCH_PROTECTION_DISMISS: "false"
-          BRANCH_PROTECTION_CODE_OWNERS: "true"
-          BRANCH_PROTECTION_ENFORCE_ADMINS: "false"
           TOKEN: ${{ secrets.PAT }}
