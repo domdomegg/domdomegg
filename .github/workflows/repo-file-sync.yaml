@@ -1,6 +1,7 @@
 name: Repo File Sync
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - master
