@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Repo Settings Sync
-        uses: kbrashears5/github-action-repo-settings-sync@v1.2
+        uses: kbrashears5/github-action-repo-settings-sync@0f0972e91538a186f406cf2df879f5af2615ecba
         with:
           REPOSITORIES: "ALL"
           ALLOW_ISSUES: "true"
@@ -25,4 +25,10 @@ jobs:
           REBASE_MERGE: "false"
           AUTO_MERGE: "true"
           DELETE_HEAD: "true"
+          BRANCH_PROTECTION_ENABLED: 'true'
+          BRANCH_PROTECTION_NAME: 'master'
+          BRANCH_PROTECTION_REQUIRED_REVIEWERS: '1'
+          BRANCH_PROTECTION_DISMISS: 'true'
+          BRANCH_PROTECTION_CODE_OWNERS: 'true'
+          BRANCH_PROTECTION_ENFORCE_ADMINS: 'false'
           TOKEN: ${{ secrets.PAT }}
