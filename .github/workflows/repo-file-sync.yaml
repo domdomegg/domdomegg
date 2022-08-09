@@ -57,7 +57,6 @@ jobs:
             domdomegg/serverless-offline-watcher
             domdomegg/serverless-example-send-email-with-ses-offline
             domdomegg/github-repo-settings-editor
-            domdomegg/github-actions-timeslots
             domdomegg/pruver
             domdomegg/eggbot
           FILES: |
