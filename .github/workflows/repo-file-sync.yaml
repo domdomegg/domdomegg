@@ -59,6 +59,7 @@ jobs:
             domdomegg/github-repo-settings-editor
             domdomegg/pruver
             domdomegg/eggbot
+            domdomegg/hindley-milner-typescript
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
