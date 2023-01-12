@@ -60,6 +60,7 @@ jobs:
             domdomegg/pruver
             domdomegg/eggbot
             domdomegg/hindley-milner-typescript
+            domdomegg/domdomegg.github.io
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -77,6 +78,7 @@ jobs:
             domdomegg/gdoc2latex-gui
             domdomegg/airconsole-you-talking-to-me
             domdomegg/react-typescript-tetris
+            domdomegg/domdomegg.github.io
           FILES: |
             file-sync/web.yaml=.github/workflows/web.yaml
           TOKEN: ${{ secrets.PAT }}
