@@ -62,6 +62,7 @@ jobs:
             domdomegg/hindley-milner-typescript
             domdomegg/domdomegg.github.io
             domdomegg/slack-workflow-pack
+            domdomegg/recma-mdx-displayname-plugin
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
