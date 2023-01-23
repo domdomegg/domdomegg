@@ -31,7 +31,7 @@ jobs:
             domdomegg/analytics-lambda
             domdomegg/aviva-pensions-sdk
             domdomegg/aws-ses-v2-local
-            domdomegg/cs310
+            domdomegg/ottie
             domdomegg/dealer-tech
             domdomegg/discord-reminder-template
             domdomegg/gdoc2latex
@@ -49,9 +49,9 @@ jobs:
             domdomegg/simple16
             domdomegg/spam-email-replier
             domdomegg/ts-i18n
-            domdomegg/ts-i18n-craco-example
             domdomegg/ts-i18n-webpack-plugin
             domdomegg/ts-i18n-webpack-plugin-example
+            domdomegg/ts-i18n-craco-example
             domdomegg/typescript-library-template
             domdomegg/uGrBHohIgQY-analysis
             domdomegg/uk-covid-stats-benfords-law
@@ -67,9 +67,10 @@ jobs:
             domdomegg/pruver
             domdomegg/eggbot
             domdomegg/hindley-milner-typescript
+            domdomegg/hindley-milner-typescript-minimal
             domdomegg/domdomegg.github.io
             domdomegg/slack-workflow-pack
-            domdomegg/recma-mdx-displayname-plugin
+            domdomegg/recma-mdx-displayname
             domdomegg/eslint-config-domdomegg
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
@@ -91,6 +92,39 @@ jobs:
             domdomegg/domdomegg.github.io
           FILES: |
             file-sync/gh-pages.yaml=.github/workflows/ci.yaml
+          TOKEN: ${{ secrets.PAT }}
+          GIT_EMAIL: domdomegg+git@gmail.com
+          GIT_USERNAME: Adam Jones
+
+      - name: General TypeScript template
+        uses: kbrashears5/github-action-file-sync@v2.2.0
+        with:
+          REPOSITORIES: |
+            domdomegg/typescript-library-template
+            domdomegg/eslint-config-domdomegg
+            domdomegg/aws-ses-v2-local
+            domdomegg/serverless-offline-ses-v2
+            domdomegg/serverless-example-send-email-with-ses-offline
+            domdomegg/serverless-offline-watcher
+            domdomegg/rsa-securid
+            domdomegg/ts-i18n
+            domdomegg/ts-i18n-webpack-plugin
+            domdomegg/halifax-share-dealing-sdk
+            domdomegg/halifax-share-dealing-google-sheets
+            domdomegg/gdoc2latex
+            domdomegg/github-repo-settings-editor
+            domdomegg/unitemps-sdk
+            domdomegg/discord-reminder-template
+            domdomegg/google-calendar-quickerstart
+            domdomegg/google-calendar-to-unitemps
+            domdomegg/google-play-version-poller
+            domdomegg/spam-email-replier
+            domdomegg/hindley-milner-typescript
+            domdomegg/hindley-milner-typescript-minimal
+            domdomegg/slack-workflow-pack
+            domdomegg/recma-mdx-displayname
+          FILES: |
+            file-sync/general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
