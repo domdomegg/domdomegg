@@ -16,6 +16,13 @@ jobs:
       - name: Checkout ${{ github.sha }}
         uses: actions/checkout@v2
 
+      # Set up a branch protection rule on the default branch first
+      # (otherwise you might merge things that fail checks). Usually:
+      # - Require a pull request before merging
+      #   - Uncheck 'Require approvals'
+      #   - Require review from Code Owners
+      # - Require status checks to pass before merging
+      #   (select required checks)
       - name: Dependabot automation
         uses: kbrashears5/github-action-file-sync@v2.2.0
         with:
@@ -63,13 +70,14 @@ jobs:
             domdomegg/domdomegg.github.io
             domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname-plugin
+            domdomegg/eslint-config-domdomegg
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
 
-      - name: Web template
+      - name: GH pages template
         uses: kbrashears5/github-action-file-sync@v2.2.0
         with:
           REPOSITORIES: |
@@ -82,7 +90,7 @@ jobs:
             domdomegg/react-typescript-tetris
             domdomegg/domdomegg.github.io
           FILES: |
-            file-sync/web.yaml=.github/workflows/web.yaml
+            file-sync/gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
