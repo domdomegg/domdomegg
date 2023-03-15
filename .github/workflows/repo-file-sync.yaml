@@ -123,6 +123,8 @@ jobs:
             domdomegg/hindley-milner-typescript-minimal
             domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname
+            domdomegg/process-wrapper
+            domdomegg/tsc-absolute
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
