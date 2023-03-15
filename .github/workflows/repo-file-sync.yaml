@@ -78,7 +78,7 @@ jobs:
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
 
-      - name: GH pages template
+      - name: Node.js GitHub Pages template
         uses: kbrashears5/github-action-file-sync@v2.2.0
         with:
           REPOSITORIES: |
@@ -91,12 +91,12 @@ jobs:
             domdomegg/react-typescript-tetris
             domdomegg/domdomegg.github.io
           FILES: |
-            file-sync/gh-pages.yaml=.github/workflows/ci.yaml
+            file-sync/node-gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
 
-      - name: General TypeScript template
+      - name: Node.js general template
         uses: kbrashears5/github-action-file-sync@v2.2.0
         with:
           REPOSITORIES: |
@@ -124,7 +124,7 @@ jobs:
             domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname
           FILES: |
-            file-sync/general.yaml=.github/workflows/ci.yaml
+            file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
