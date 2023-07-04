@@ -54,6 +54,7 @@ jobs:
             domdomegg/ts-i18n-webpack-plugin
             domdomegg/ts-i18n-webpack-plugin-example
             domdomegg/ts-i18n-craco-example
+            domdomegg/github-actions-timeslots
             domdomegg/uGrBHohIgQY-analysis
             domdomegg/uk-covid-stats-benfords-law
             domdomegg/unitemps-sdk
