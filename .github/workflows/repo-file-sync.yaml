@@ -77,6 +77,7 @@ jobs:
             domdomegg/tsc-absolute
             domdomegg/dynamodb-local-shareddb-bug
             domdomegg/odir
+            domdomegg/markdown-inline-preview-vscode
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -130,6 +131,7 @@ jobs:
             domdomegg/recma-mdx-displayname
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
+            domdomegg/markdown-inline-preview-vscode
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
