@@ -73,6 +73,7 @@ jobs:
             domdomegg/domdomegg.github.io
             domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname
+            domdomegg/recma-mdx-frontmatter
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
             domdomegg/dynamodb-local-shareddb-bug
@@ -130,6 +131,7 @@ jobs:
             domdomegg/hindley-milner-typescript-minimal
             domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname
+            domdomegg/recma-mdx-frontmatter
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
             domdomegg/markdown-inline-preview-vscode
