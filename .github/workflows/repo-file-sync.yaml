@@ -82,6 +82,7 @@ jobs:
             domdomegg/homelab
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
+            domdomegg/airtable-ts
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -139,6 +140,7 @@ jobs:
             domdomegg/markdown-inline-preview-vscode
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
+            domdomegg/airtable-ts
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
