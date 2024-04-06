@@ -137,7 +137,6 @@ jobs:
             domdomegg/recma-mdx-frontmatter
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
-            domdomegg/markdown-inline-preview-vscode
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
