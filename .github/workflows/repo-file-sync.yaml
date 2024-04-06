@@ -79,7 +79,6 @@ jobs:
             domdomegg/dynamodb-local-shareddb-bug
             domdomegg/odir
             domdomegg/markdown-inline-preview-vscode
-            domdomegg/homelab
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
