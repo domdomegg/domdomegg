@@ -83,7 +83,8 @@ jobs:
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
             domdomegg/tsconfig-domdomegg
-            domdomegg/weekly-time
+            domdomegg/weekly-availabilities
+            domdomegg/weekly-availabilities-summary
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -142,7 +143,8 @@ jobs:
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
             domdomegg/tsconfig-domdomegg
-            domdomegg/weekly-time
+            domdomegg/weekly-availabilities
+            domdomegg/weekly-availabilities-summary
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
