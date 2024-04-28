@@ -85,6 +85,7 @@ jobs:
             domdomegg/tsconfig-domdomegg
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
+            domdomegg/benchmark-next-vs-nginx
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -145,6 +146,7 @@ jobs:
             domdomegg/tsconfig-domdomegg
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
+            domdomegg/benchmark-next-vs-nginx
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
