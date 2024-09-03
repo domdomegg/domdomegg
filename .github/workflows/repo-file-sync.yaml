@@ -86,6 +86,7 @@ jobs:
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
+            domdomegg/homelab
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
