@@ -87,6 +87,7 @@ jobs:
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
             domdomegg/homelab
+            domdomegg/optoma-ir-to-nec
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -105,6 +106,7 @@ jobs:
             domdomegg/airconsole-you-talking-to-me
             domdomegg/react-typescript-tetris
             domdomegg/domdomegg.github.io
+            domdomegg/optoma-ir-to-nec
           FILES: |
             file-sync/node-gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
