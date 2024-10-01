@@ -88,6 +88,7 @@ jobs:
             domdomegg/benchmark-next-vs-nginx
             domdomegg/homelab
             domdomegg/optoma-ir-to-nec
+            domdomegg/jimp-1325-mre
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
