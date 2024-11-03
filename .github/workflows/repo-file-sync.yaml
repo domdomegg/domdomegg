@@ -89,6 +89,7 @@ jobs:
             domdomegg/homelab
             domdomegg/optoma-ir-to-nec
             domdomegg/jimp-1325-mre
+            domdomegg/typescript-webapp-template
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -108,6 +109,7 @@ jobs:
             domdomegg/react-typescript-tetris
             domdomegg/domdomegg.github.io
             domdomegg/optoma-ir-to-nec
+            domdomegg/typescript-webapp-template
           FILES: |
             file-sync/node-gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
