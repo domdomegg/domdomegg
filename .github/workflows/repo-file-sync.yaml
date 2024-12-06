@@ -90,6 +90,7 @@ jobs:
             domdomegg/optoma-ir-to-nec
             domdomegg/jimp-1325-mre
             domdomegg/typescript-webapp-template
+            domdomegg/google-client-id-lookup
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -110,6 +111,7 @@ jobs:
             domdomegg/domdomegg.github.io
             domdomegg/optoma-ir-to-nec
             domdomegg/typescript-webapp-template
+            domdomegg/google-client-id-lookup
           FILES: |
             file-sync/node-gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
