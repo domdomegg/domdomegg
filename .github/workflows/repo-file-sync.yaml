@@ -92,6 +92,7 @@ jobs:
             domdomegg/typescript-webapp-template
             domdomegg/google-client-id-lookup
             domdomegg/airtable-mcp-server
+            domdomegg/computer-use-mcp
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -157,6 +158,7 @@ jobs:
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
             domdomegg/airtable-mcp-server
+            domdomegg/computer-use-mcp
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
