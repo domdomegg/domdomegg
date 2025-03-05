@@ -31,7 +31,6 @@ jobs:
             domdomegg/eslint-config-domdomegg
             domdomegg/airconsole-you-talking-to-me
             domdomegg/analytics-lambda
-            domdomegg/aviva-pensions-sdk
             domdomegg/aws-ses-v2-local
             domdomegg/ottie
             domdomegg/dealer-tech
