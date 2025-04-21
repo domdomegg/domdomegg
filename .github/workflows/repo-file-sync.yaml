@@ -92,6 +92,7 @@ jobs:
             domdomegg/airtable-mcp-server
             domdomegg/computer-use-mcp
             domdomegg/tsup-831
+            domdomegg/parallel-sort
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -158,6 +159,7 @@ jobs:
             domdomegg/benchmark-next-vs-nginx
             domdomegg/airtable-mcp-server
             domdomegg/computer-use-mcp
+            domdomegg/parallel-sort
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
