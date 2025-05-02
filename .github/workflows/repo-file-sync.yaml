@@ -80,6 +80,8 @@ jobs:
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
+            domdomegg/airtable-ts-codegen
+            domdomegg/airtable-ts-formula
             domdomegg/tsconfig-domdomegg
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
@@ -93,7 +95,6 @@ jobs:
             domdomegg/computer-use-mcp
             domdomegg/tsup-831
             domdomegg/parallel-sort
-            domdomegg/airtable-ts-formula
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -154,6 +155,8 @@ jobs:
             domdomegg/estree-util-value-to-estree-cjs
             domdomegg/llm-spelling-experiment
             domdomegg/airtable-ts
+            domdomegg/airtable-ts-codegen
+            domdomegg/airtable-ts-formula
             domdomegg/tsconfig-domdomegg
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
@@ -161,7 +164,6 @@ jobs:
             domdomegg/airtable-mcp-server
             domdomegg/computer-use-mcp
             domdomegg/parallel-sort
-            domdomegg/airtable-ts-formula
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
