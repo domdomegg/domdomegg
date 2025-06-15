@@ -96,6 +96,7 @@ jobs:
             domdomegg/tsup-831
             domdomegg/parallel-sort
             domdomegg/defuddle-fetch-mcp-server
+            domdomegg/just-one-ai-webapp
           FILES: |
             file-sync/auto-dependabot.yaml=.github/workflows/auto-dependabot.yaml
           TOKEN: ${{ secrets.PAT }}
@@ -117,6 +118,7 @@ jobs:
             domdomegg/optoma-ir-to-nec
             domdomegg/typescript-webapp-template
             domdomegg/google-client-id-lookup
+            domdomegg/just-one-ai-webapp
           FILES: |
             file-sync/node-gh-pages.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
