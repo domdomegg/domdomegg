@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/downdetector-mcp
             domdomegg/eslint-config-domdomegg
             domdomegg/airconsole-you-talking-to-me
             domdomegg/analytics-lambda
@@ -131,6 +132,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/downdetector-mcp
             domdomegg/eslint-config-domdomegg
             domdomegg/aws-ses-v2-local
             domdomegg/serverless-offline-ses-v2
@@ -175,3 +177,4 @@ jobs:
           TOKEN: ${{ secrets.PAT }}
           GIT_EMAIL: domdomegg+git@gmail.com
           GIT_USERNAME: Adam Jones
+
