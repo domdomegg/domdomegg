@@ -43,7 +43,6 @@ jobs:
             domdomegg/google-play-version-poller
             domdomegg/halifax-share-dealing-google-sheets
             domdomegg/halifax-share-dealing-sdk
-            domdomegg/lifx-houseparty
             domdomegg/london-cycle-parking
             domdomegg/rsa-securid
             domdomegg/rsa-securid-browser-extension
@@ -55,27 +54,22 @@ jobs:
             domdomegg/ts-i18n-webpack-plugin-example
             domdomegg/ts-i18n-craco-example
             domdomegg/github-actions-timeslots
-            domdomegg/uGrBHohIgQY-analysis
             domdomegg/unitemps-sdk
             domdomegg/pdf-scanner
             domdomegg/headless-ui-dialog-centering
             domdomegg/react-typescript-tetris
-            domdomegg/postal-vote
             domdomegg/shrolebot
             domdomegg/serverless-offline-watcher
             domdomegg/serverless-example-send-email-with-ses-offline
             domdomegg/github-repo-settings-editor
             domdomegg/pruver
-            domdomegg/eggbot
             domdomegg/hindley-milner-typescript
             domdomegg/hindley-milner-typescript-minimal
             domdomegg/domdomegg.github.io
-            domdomegg/slack-workflow-pack
             domdomegg/recma-mdx-displayname
             domdomegg/recma-mdx-frontmatter
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
-            domdomegg/dynamodb-local-shareddb-bug
             domdomegg/odir
             domdomegg/markdown-inline-preview-vscode
             domdomegg/estree-util-value-to-estree-cjs
