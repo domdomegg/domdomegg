@@ -161,7 +161,6 @@ jobs:
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
-            domdomegg/airtable-mcp-server
             domdomegg/computer-use-mcp
             domdomegg/parallel-sort
             domdomegg/defuddle-fetch-mcp-server
