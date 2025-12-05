@@ -126,7 +126,6 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
-            domdomegg/downdetector-mcp
             domdomegg/eslint-config-domdomegg
             domdomegg/aws-ses-v2-local
             domdomegg/serverless-offline-ses-v2
@@ -161,10 +160,7 @@ jobs:
             domdomegg/weekly-availabilities
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
-            domdomegg/computer-use-mcp
             domdomegg/parallel-sort
-            domdomegg/defuddle-fetch-mcp-server
-            domdomegg/starling-bank-mcp
           FILES: |
             file-sync/node-general.yaml=.github/workflows/ci.yaml
           TOKEN: ${{ secrets.PAT }}
