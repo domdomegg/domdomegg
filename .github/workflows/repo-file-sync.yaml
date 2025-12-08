@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/claude-chrome-permission-editor
             domdomegg/downdetector-mcp
             domdomegg/eslint-config-domdomegg
             domdomegg/airconsole-you-talking-to-me
@@ -126,6 +127,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/claude-chrome-permission-editor
             domdomegg/eslint-config-domdomegg
             domdomegg/aws-ses-v2-local
             domdomegg/serverless-offline-ses-v2
