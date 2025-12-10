@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/gcp-github-secrets
             domdomegg/claude-chrome-permission-editor
             domdomegg/downdetector-mcp
             domdomegg/eslint-config-domdomegg
@@ -127,6 +128,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/gcp-github-secrets
             domdomegg/claude-chrome-permission-editor
             domdomegg/eslint-config-domdomegg
             domdomegg/aws-ses-v2-local
