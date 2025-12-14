@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/sup-cli
             domdomegg/gdrive-folder-sync
             domdomegg/claude-chrome-permission-editor
             domdomegg/downdetector-mcp
@@ -128,6 +129,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/sup-cli
             domdomegg/gdrive-folder-sync
             domdomegg/claude-chrome-permission-editor
             domdomegg/eslint-config-domdomegg
