@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/mcp-auth-wrapper
             domdomegg/tool-sandbox
             domdomegg/sup-cli
             domdomegg/gdrive-folder-sync
@@ -130,6 +131,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/mcp-auth-wrapper
             domdomegg/tool-sandbox
             domdomegg/sup-cli
             domdomegg/gdrive-folder-sync
