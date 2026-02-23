@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/hass-oidc-provider
             domdomegg/mcp-auth-wrapper
             domdomegg/tool-sandbox
             domdomegg/sup-cli
@@ -131,6 +132,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/hass-oidc-provider
             domdomegg/mcp-auth-wrapper
             domdomegg/tool-sandbox
             domdomegg/sup-cli
