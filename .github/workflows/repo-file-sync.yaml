@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/mcp-local-tunnel
             domdomegg/mcp-gateway
             domdomegg/tool-sandbox-mcp
             domdomegg/hass-oidc-provider
@@ -134,6 +135,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/mcp-local-tunnel
             domdomegg/mcp-gateway
             domdomegg/tool-sandbox-mcp
             domdomegg/hass-oidc-provider
