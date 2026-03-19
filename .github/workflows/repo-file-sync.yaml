@@ -119,6 +119,7 @@ jobs:
             domdomegg/ts-i18n-craco-example
             domdomegg/gdoc2latex-gui
             domdomegg/airconsole-you-talking-to-me
+            domdomegg/controller-tutor
             domdomegg/react-typescript-tetris
             domdomegg/domdomegg.github.io
             domdomegg/optoma-ir-to-nec
