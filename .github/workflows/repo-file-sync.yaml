@@ -97,6 +97,7 @@ jobs:
             domdomegg/google-client-id-lookup
             domdomegg/airtable-mcp-server
             domdomegg/computer-use-mcp
+            domdomegg/controller-tutor
             domdomegg/tsup-831
             domdomegg/parallel-sort
             domdomegg/defuddle-fetch-mcp-server
