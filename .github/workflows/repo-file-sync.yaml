@@ -28,6 +28,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/benepass-mcp
             domdomegg/olio-volunteer-mcp
             domdomegg/mcp-install-instructions
             domdomegg/mcp-local-tunnel
@@ -139,6 +140,7 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/benepass-mcp
             domdomegg/olio-volunteer-mcp
             domdomegg/mcp-install-instructions
             domdomegg/mcp-local-tunnel
