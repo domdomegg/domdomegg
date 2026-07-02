@@ -95,6 +95,7 @@ jobs:
             domdomegg/weekly-availabilities-summary
             domdomegg/benchmark-next-vs-nginx
             domdomegg/homelab
+            domdomegg/aws-shared-infra
             domdomegg/optoma-ir-to-nec
             domdomegg/jimp-1325-mre
             domdomegg/typescript-webapp-template
