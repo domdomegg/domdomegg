@@ -28,6 +28,20 @@ jobs:
         with:
           REPOSITORIES: |
             domdomegg/typescript-library-template
+            domdomegg/aws-open-data-mcp
+            domdomegg/barcode-scanner-mcp
+            domdomegg/filesystem-mcp
+            domdomegg/gmail-mcp
+            domdomegg/google-cal-mcp
+            domdomegg/google-contacts-mcp
+            domdomegg/google-documents-mcp
+            domdomegg/google-drive-mcp
+            domdomegg/google-maps-places-mcp
+            domdomegg/google-sheets-mcp
+            domdomegg/shell-exec-mcp
+            domdomegg/install-mcp
+            domdomegg/openfoodfacts-mcp
+            domdomegg/call-mcp
             domdomegg/mcpc
             domdomegg/benepass-mcp
             domdomegg/olio-volunteer-mcp
