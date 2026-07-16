@@ -62,6 +62,7 @@ jobs:
             domdomegg/aws-ses-v2-local
             domdomegg/ottie
             domdomegg/dealer-tech
+            domdomegg/postal-vote
             domdomegg/discord-reminder-template
             domdomegg/gdoc2latex
             domdomegg/gdoc2latex-gui
