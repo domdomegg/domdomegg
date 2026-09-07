@@ -98,6 +98,7 @@ jobs:
             domdomegg/recma-mdx-frontmatter
             domdomegg/process-wrapper
             domdomegg/tsc-absolute
+            domdomegg/tsc-absolute-github-actions-example
             domdomegg/odir
             domdomegg/markdown-inline-preview-vscode
             domdomegg/estree-util-value-to-estree-cjs
